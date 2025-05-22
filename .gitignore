@@ -1,0 +1,40 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Entorno virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Archivos de configuración del entorno
+*.env
+*.env.*
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de log
+*.log
+
+# Base de datos SQLite
+*.sqlite3
+*.db
+
+# Flask-Migrate
+migrations/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos de test/coverage
+.coverage
+# Archivos de Python
+__pycache__/
+*.py[cod]
